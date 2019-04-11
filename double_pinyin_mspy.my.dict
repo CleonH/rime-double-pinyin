@@ -1,0 +1,13 @@
+---
+name: double_pinyin_mspy.my
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: true
+import_tables:
+ - luna_pinyin
+ - new_med1
+# 引用luna_pinyin的词库，用深蓝转化的文本词库，直接导入到luna词库
+# 新建new_med1词库，保存为new_med1.dict.yaml, 并在其中添加 name/version/sort/preset信息
+...
+#
+#吃鸡 chi ji
