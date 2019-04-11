@@ -21,3 +21,8 @@
 [東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install double-pinyin`
 
 授權條款：見 [LICENSE](LICENSE)
+
+
+## 个人设定 - 双拼
+微软双拼 default.custom.yaml
+词库引用 double_pinyin_mspy.my.dict.yaml
