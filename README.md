@@ -1,6 +1,7 @@
 # 雙拼
+配方： ℞ **double-pinyin**  
 
-配方： ℞ **double-pinyin**
+**小狼毫安裝包： double-pinyin **
 
 [Rime](https://rime.im) 雙拼輸入方案
 
@@ -18,7 +19,7 @@
 
   - [朙月拼音](https://github.com/rime/rime-luna-pinyin) ℞ **`luna-pinyin`**
 
-[東風破](https://github.com/rime/plum) 安裝口令： `bash rime-install double-pinyin`
+[東風破](https://github.com/rime/plum) **安裝口令： `bash rime-install double-pinyin` **
 
 授權條款：見 [LICENSE](LICENSE)
 
@@ -26,10 +27,18 @@
 ## 个人设定 - 双拼
 
 微软双拼 default.custom.yaml
-
 词库引用 double_pinyin_mspy.my.dict.yaml
 
-（简易方法：引用luna_pinyin，深蓝转化词库文本，直接导入luna_pinyin)
+
+### 导入词库（简易）
+
+简易方法：引用luna_pinyin，深蓝转化词库文本，直接导入luna_pinyin词库)
+
+打开double_pinyin_mspy.my.dict.yaml ，import_tables增加搜狗词库
+```
+import_table:
+ - luna_pinyin
+```
 
 
 ### 导入搜狗词库
@@ -38,7 +47,7 @@
 
 2 下载深蓝词库转换 https://github.com/studyzy/imewlconverter
 
-3 转化成功保存txt本地即可
+3 转化成功保存txt本地即可，比如sg-ciku1.txt
 
 4 复制txt文件到Rime 配置目录下，并重命名 sg-ciku1.dict.yaml 然后打开在最上面添加
 ```
