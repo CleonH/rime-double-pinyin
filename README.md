@@ -33,9 +33,13 @@
 
 
 ### 导入搜狗词库
+
 1 下载搜狗标准词库 https://pinyin.sogou.com/dict/detail/index/11640
+
 2 下载深蓝词库转换 https://github.com/studyzy/imewlconverter
+
 3 转化成功保存txt本地即可
+
 4 复制txt文件到Rime 配置目录下，并重命名 sg-ciku1.dict.yaml 然后打开在最上面添加
 ```
 ---
@@ -45,6 +49,7 @@ sort: by_weight
 use_preset_vocabulary: true
 ...
 ```
+
 5 打开luna_pinyin.my.dict.yaml ，import_tables增加搜狗词库
 ```
 import_table:
