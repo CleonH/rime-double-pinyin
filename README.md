@@ -1,8 +1,6 @@
 # 雙拼
 配方： ℞ **double-pinyin**  
 
-**小狼毫安裝包： double-pinyin **
-
 [Rime](https://rime.im) 雙拼輸入方案
 
 已收錄以下雙拼方案：
@@ -23,8 +21,10 @@
 
 授權條款：見 [LICENSE](LICENSE)
 
+**小狼毫安裝包： double-pinyin **
 
-## 个人设定 - 双拼
+
+## 个人设定 - double_pinyin_MSpy
 
 微软双拼 default.custom.yaml
 词库引用 double_pinyin_mspy.my.dict.yaml
@@ -59,7 +59,7 @@ use_preset_vocabulary: true
 ...
 ```
 
-5 打开luna_pinyin.my.dict.yaml ，import_tables增加搜狗词库
+5 打开double_pinyin_mspy.my.dict.yaml ，import_tables增加搜狗词库
 ```
 import_table:
  - sg-ciku1
